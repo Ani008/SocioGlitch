@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { AnimatePresence, MotionConfig } from "framer-motion";
+import { Analytics } from '@vercel/analytics/next';
 import Lenis from "lenis";
 import Preloader from "./components/Preloader.jsx";
 import Cursor from "./components/Cursor.jsx";
@@ -55,6 +56,7 @@ export default function App() {
         <Marquee />
         <HowItWorks />
         <Contact />
+        <Analytics />
       </main>
     </MotionConfig>
   );
