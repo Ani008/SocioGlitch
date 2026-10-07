@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { AnimatePresence, MotionConfig } from "framer-motion";
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from '@vercel/analytics/react';
 import Lenis from "lenis";
 import Preloader from "./components/Preloader.jsx";
 import Cursor from "./components/Cursor.jsx";
